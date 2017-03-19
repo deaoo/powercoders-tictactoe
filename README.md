@@ -9,8 +9,8 @@ Check if you're all set:
 ```bash
 git --version
 # git version 2.7.4 (any other version is also fine)
-npm --version
-# 4.1.2 (any other version is also fine)
+node --version
+# v7.7.1 (should be greater than 6.4.0)
 ```
 
 ## Setup
