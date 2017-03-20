@@ -24,6 +24,7 @@ test.skip('sayHello should say hello the any given person', function(t) {
 test.skip('shoutHello should shout the greeting', function(t) {
     t.equals(shoutHello('powercoders'), 'HELLO POWERCODERS!');
     t.equals(shoutHello('World'), 'HELLO WORLD!');
+    t.end();
 });
 
 test.skip('removeDuplicates removes all duplicates from an array', function(t) {
